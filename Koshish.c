@@ -1,17 +1,19 @@
 #include<stdio.h>
 #define SIZE 500
+#define SECNO 7
 
 struct TimeTables
 {
     char courseCode[7][8];
     char subjectName[7][50];
-    char teachers[7][6][20];
+    char teachers[7][SECNO][20];
 } timeTable;
 
 
 int main()
 {
     char line[SIZE];
+    char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 
     FILE *infile;
     char *inname = "Teachers and Subjects.txt";
@@ -30,11 +32,12 @@ int main()
         sscanf(line, "%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\n]", 
         timeTable.courseCode[i], timeTable.subjectName[i], timeTable.teachers[i][0], timeTable.teachers[i][1], timeTable.teachers[i][2], timeTable.teachers[i][3], timeTable.teachers[i][4], timeTable.teachers[i][5], timeTable.teachers[i][6]);
         
+        printf("\n");
         printf("%s\t | ", timeTable.courseCode[i]);
         printf("%s\t | ", timeTable.subjectName[i]);
         
-        for(int j = 0; j < 7; j++){
-            printf("%s\t | ", timeTable.teachers[i][j]);
+        for(int j = 0; j < SECNO; j++){
+            printf("%c. %s | ", sec[j], timeTable.teachers[i][j]);
         }
 
         printf("\n");
