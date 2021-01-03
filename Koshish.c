@@ -1,22 +1,26 @@
 #include<stdio.h>
-#define SIZE 500
+#include <stdlib.h>
+#include <time.h>
 
-struct TimeTables
-{
+#define PERIODS 8
+#define SIZE 500
+#define RANDOM() ({int randInt = rand() % PERIODS; randInt;})
+
+struct TimeTables {
     char courseCode[7][8];
     char subjectName[7][50];
     char teachers[7][6][20];
 } timeTable;
 
-
 int main()
 {
     char line[SIZE];
+    int i = 0, randInt;
 
     FILE *infile;
     char *inname = "Teachers and Subjects.txt";
 
-    int i = 0;
+    srand(time(0));
 
     infile = fopen(inname, "r");
     if (!infile) {
@@ -42,4 +46,6 @@ int main()
 
         i++; 
     }
+
+    randInt = RANDOM();
 }
