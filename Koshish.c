@@ -4,11 +4,8 @@
 
 #define PERIODS 8
 #define SIZE 500
-<<<<<<< HEAD
 #define RANDOM() ({int randInt = rand() % PERIODS; randInt;})
-=======
 #define SECNO 7
->>>>>>> 044ef6c70015ba8402fbd08034487e7cef0c91a6
 
 struct TimeTables {
     char courseCode[7][8];
@@ -19,11 +16,8 @@ struct TimeTables {
 int main()
 {
     char line[SIZE];
-<<<<<<< HEAD
     int i = 0, randInt;
-=======
     char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
->>>>>>> 044ef6c70015ba8402fbd08034487e7cef0c91a6
 
     FILE *infile;
     char *inname = "Teachers and Subjects.txt";
