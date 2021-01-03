@@ -6,3 +6,4 @@ CSCL 1103	Fundamentals of Programming Lab	Rabia S	Rabia S	Rabia S	Rabia S	Madiha
 CSC 1107	Physics 	Masood A	Masood A	M. Ahsan	M. Ahsan	M Umair Arif 	M Umair Arif 	Naveel Arshad
 CSCL 1107	Lab: Physics 	Siraj	Khalil	Iffat Islam	Iffat Islam	Khalil	Khalil	Khalil
 CSC 1102	English Composition & Comprehension	Imran Hassan	Ufaq binte Jamal	Beenish Chaudhry	Ufaq binte Jamal	Farhanuddin	Farhanuddin	Wishaal Khalid
+d
