@@ -4,7 +4,7 @@
 #define SIZE 500
 #define RANDOM() ({int randInt = rand() % PERIODS; randInt;})
 #define SECNO 7
-#define COURSE 9
+#define COURSE 8
 
 typedef struct TimeTables T;
 

@@ -30,7 +30,7 @@ void create(T *timeTable) {
 void read(T timeTable) {
     char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 
-    for(int i = 0; i < 8; i++) {
+    for(int i = 0; i < COURSE-1; i++) {
         printf("\n");
         printf("%s\t | ", timeTable.courseCode[i]);
         printf("%s\t | ", timeTable.subjectName[i]);
