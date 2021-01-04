@@ -8,8 +8,8 @@
 #define SECNO 7
 
 struct TimeTables {
-    char courseCode[7][8];
-    char subjectName[7][50];
+    char courseCode[9][8];
+    char subjectName[8][50];
     char teachers[7][SECNO][20];
 } timeTable;
 
@@ -41,7 +41,7 @@ int main()
         printf("%s\t | ", timeTable.subjectName[i]);
         
         for(int j = 0; j < SECNO; j++){
-            printf("%c. %s | ", sec[j], timeTable.teachers[i][j]);
+            printf("%c. %s |\t", sec[j], timeTable.teachers[i][j]);
         }
 
         printf("\n");
@@ -51,4 +51,42 @@ int main()
     }
 
     randInt = RANDOM();
+
+    char flag = 'N';
+    int k, l;
+
+    printf("Do you wish to change Instructors? (Y/N): ");
+        scanf(" %c", &flag);
+
+    switch (flag)
+    {
+    case 'Y':
+    case 'y':
+
+        printf("Select section you wish to make changes for: \n");
+        
+        for(i = 0; i < SECNO; i++){
+            printf("~%i. %c | ", i+1, sec[i]);
+        }
+
+        printf("\n");
+            scanf(" %i", &k);
+
+        printf("Select subject: \n");
+        
+        for(i = 0; i < PERIODS; i++){
+            printf("%i. %s\n", i+1, timeTable.subjectName[i]);
+        }
+
+        printf("\n");
+            scanf(" %i", &l);
+
+        printf("Current Instructor: %s\n", timeTable.teachers[l-1][k-1]);
+        printf("%s", timeTable.teachers[0][1]);
+
+        break;
+    
+    default:
+        break;
+    }
 }
