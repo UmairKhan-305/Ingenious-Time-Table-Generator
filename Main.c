@@ -1,16 +1,32 @@
+#include <conio.h>
 #include "crud.h"
 #include "generator.h"
+
+void create(T *, C *);
+void read(T, C);
+void update(T);
+void generator (G *, T, C, int);
+void displayTable (G);
 
 int main () {
     T timeTable;
     G generatedTable;
+    C classes;
+    char cont;
+    // char classRooms[ROOMS][14] = {0};
     
-    create(&timeTable);
+    create(&timeTable, &classes);
 
-    read(timeTable);
+    read(timeTable, classes);
 
     update(timeTable);
 
-    generator(&generatedTable, timeTable, 0);
-    displayTable(generatedTable);
+    printf("Generate Time Table? ");
+    cont = getche();
+       
+    if(cont != 'y' || cont != 'Y') {
+        generator(&generatedTable, timeTable, classes, 0);
+        displayTable(generatedTable);
+        printf("\nTime Table generated\n");
+    }
 }

@@ -1,5 +1,6 @@
 #pragma once
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #define PERIODS 8
 #define SIZE 500
@@ -11,6 +12,7 @@
 
 typedef struct TimeTables T;
 typedef struct GeneratedTable G;
+typedef struct ClassRooms C;
 
 struct TimeTables {
     char courseCode[COURSE][10];
@@ -20,4 +22,8 @@ struct TimeTables {
 
 struct GeneratedTable {
     char table[SECNO][PERIODS][DAYS][SLOTLENGTH];
+};
+
+struct ClassRooms {
+    char class[ROOMS][14];
 };

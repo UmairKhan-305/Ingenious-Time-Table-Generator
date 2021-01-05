@@ -1,32 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include "declaration.h"
 
 char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 char flag = 'N', flag1 = 'N';
 int k, l, check;
 
-void create(T *);
-void read(T);
-int update(T);
-
-void create(T *timeTable) {
+void create(T *timeTable, C *classRooms) {
     char line[SIZE];
     int i = 0;
 
     FILE *infile;
     char *inname = "Teachers and Subjects.txt";
 
-    srand(time(0));
-
     infile = fopen(inname, "r");
     if (!infile) {
-        printf("Couldn't open %s for reading\n");
+        printf("Couldn't open %s for reading\n", inname);
         exit(1);
     }
-
-    printf("Semester Details:\n");
 
     while(fgets(line, sizeof(line), infile) != NULL) {
         sscanf(line, "%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\n]", 
@@ -34,9 +24,26 @@ void create(T *timeTable) {
 
         i++; 
     }
+    fclose(infile);
+
+    inname = "ClassRooms.txt";
+    infile = fopen(inname, "r");
+    if (!infile) {
+        printf("Couldn't open %s for reading\n", inname);
+        exit(1);
+    }
+
+    i = 0;
+    while(fgets(line, sizeof(line), infile) != NULL) {
+        sscanf(line, "%[^\n]", classRooms->class[i]);
+        
+        i++;
+    }
+    fclose(infile);
 }
 
-void read(T timeTable) {
+void read(T timeTable, C classRooms) {
+    printf("Semester Details:\n");
     for(int i = 0; i < COURSE; i++) {
         printf("\n");
         printf("%s\t | ", timeTable.courseCode[i]);
@@ -49,9 +56,15 @@ void read(T timeTable) {
         printf("\n");
         printf("__________________________________________________________\n");
     }
+
+    printf("Class Rooms: (Room) | (Campus) \n");
+    for (int i = 0; i < ROOMS; i++)
+    {
+        printf("%s\n", classRooms.class[i]);
+    }
 }
 
-int update(T timeTable){
+void update(T timeTable){
     printf("Do you wish to change Instructors? (Y/N): ");
         scanf(" %c", &flag);
 
