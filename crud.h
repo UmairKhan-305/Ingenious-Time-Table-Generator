@@ -3,6 +3,14 @@
 #include <time.h>
 #include "declaration.h"
 
+char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
+char flag = 'N', flag1 = 'N';
+int k, l, check;
+
+void create(T *);
+void read(T);
+int update(T);
+
 void create(T *timeTable) {
     char line[SIZE];
     int i = 0;
@@ -29,7 +37,7 @@ void create(T *timeTable) {
 }
 
 void read(T timeTable) {
-    for(int i = 0; i < COURSE-1; i++) {
+    for(int i = 0; i < COURSE; i++) {
         printf("\n");
         printf("%s\t | ", timeTable.courseCode[i]);
         printf("%s\t | ", timeTable.subjectName[i]);
@@ -87,7 +95,7 @@ int update(T timeTable){
         
         infile = fopen(inname, "w");
 
-        for(int i = 0; i < COURSE-1; i++){
+        for(int i = 0; i < COURSE; i++){
             fprintf(infile, "%s\t%s\t", timeTable.courseCode[i], timeTable.subjectName[i]);
 
             for(int j = 0; j < SECNO; j++){

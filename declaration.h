@@ -1,12 +1,15 @@
+#pragma once
 #include<stdio.h>
 
 #define PERIODS 8
 #define SIZE 500
-#define RANDOM() ({int randInt = rand() % PERIODS; randInt;})
 #define SECNO 7
 #define COURSE 8
+#define DAYS 6
+#define ROOMS 25
 
 typedef struct TimeTables T;
+typedef struct GeneratedTable G;
 
 struct TimeTables {
     char courseCode[COURSE][10];
@@ -14,9 +17,10 @@ struct TimeTables {
     char teachers[COURSE][SECNO][20];
 };
 
-char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
-
-char flag = 'N';
-char flag1 = 'N';
-int k, l;
-int check;
+struct GeneratedTable {
+    // int section[SECNO];
+    // int period[PERIODS];
+    // int day[DAYS];
+    // char content[80];
+    char table[SECNO][PERIODS][DAYS][80];
+};

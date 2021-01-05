@@ -1,0 +1,25 @@
+Room-106	100
+Room-410	100
+Room-402	100
+Room-409	100
+Room-405	100
+Room-407	100
+Room-408	100
+Room-307	100
+Room-302	100
+Room-305	100
+Lab-CS	100
+Lab-3	100
+Lab-4	100
+Lab-5	100
+Smart Lab	100
+Room-107	154
+Room-108	154
+Room-201	154
+Room-202	154
+Room-203	154
+Room-205	154
+Room-204	154
+CS-Physics Lab	153
+Room-01	153
+Room-07	153
