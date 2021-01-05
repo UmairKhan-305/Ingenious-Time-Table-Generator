@@ -1,5 +1,5 @@
 CSC 1108	Introduction to Computer Science	Adeel K	Adeel K	Adeel K	Asim Riaz	Asim Riaz	Adeel K	Sikander
-CSCL 1108	Lab; Introduction to Computer Science	Sadia Aziz	Kausar Shaheen	Madiha N	Kausar Shaheen	Sadia Aziz	Sadia Aziz	Sadia Aziz
+CSCL 1108	Lab: Introduction to Computer Science	Sadia Aziz	Kausar Shaheen	Madiha N	Kausar Shaheen	Sadia Aziz	Sadia Aziz	Sadia Aziz
 CSC 1101	Calculus & Analytical Geometry	Waqar Malik	Syed Inam	Waqar Malik	Waqar Malik	Kiran Velani	Waqar Malik	Kiran Velani
 CSC 1103	Fundamentals of Programming 	Khalid Rasheed	Khalid Rasheed	Khalid Rasheed	Adeel Ahmed	Adeel Ahmed	Dr. Amir S	Dr. Amir S
 CSCL 1103	Fundamentals of Programming Lab	Rabia S	Rabia S	Rabia S	Rabia S	Madiha N	Momel Rehman	Momel Rehman

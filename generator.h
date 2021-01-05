@@ -8,6 +8,21 @@ int IsTaken[ROOMS][PERIODS][DAYS] = {0};
 int rand_period, rand_room, rand_day;
 char content[SLOTLENGTH];
 
+void garbageCollector(G * table) {
+    for (int i = 0; i < SECNO; i++)
+    {
+        for (int j = 0; j < DAYS; j++)
+        {
+            for (int k = 0; k < PERIODS; k++)
+            {
+                memset(table->table[i][k][j], '\0', SLOTLENGTH);
+            }
+            
+        }
+        
+    }
+}
+
 void generator(G *generatedTable, T timeTable, C classRooms, int sec) {
     srand(time(0));
     if (sec == SECNO) {
