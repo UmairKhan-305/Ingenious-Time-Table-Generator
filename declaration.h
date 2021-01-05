@@ -7,6 +7,7 @@
 #define COURSE 8
 #define DAYS 6
 #define ROOMS 25
+#define SLOTLENGTH 100
 
 typedef struct TimeTables T;
 typedef struct GeneratedTable G;
@@ -18,9 +19,5 @@ struct TimeTables {
 };
 
 struct GeneratedTable {
-    // int section[SECNO];
-    // int period[PERIODS];
-    // int day[DAYS];
-    // char content[80];
-    char table[SECNO][PERIODS][DAYS][80];
+    char table[SECNO][PERIODS][DAYS][SLOTLENGTH];
 };

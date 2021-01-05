@@ -1,0 +1,385 @@
+Section: 0
+Day: 0
+
+
+
+
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+
+
+Day: 1
+
+
+
+
+
+CSC 1102 English Composition & Comprehension Imran Hassan
+CSC 1102 English Composition & Comprehension Imran Hassan
+
+Day: 2
+
+CSC 1103 Fundamentals of Programming  Khalid Rasheed
+CSC 1103 Fundamentals of Programming  Khalid Rasheed
+
+
+
+
+
+Day: 3
+
+CSCL 1103 Fundamentals of Programming Lab Rabia S
+CSCL 1103 Fundamentals of Programming Lab Rabia S
+CSC 1108 Introduction to Computer Science Adeel K
+
+
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+Day: 4
+CSC 1107 Physics  Masood A
+CSC 1107 Physics  Masood A
+
+
+
+
+
+
+Day: 5
+
+
+
+
+CSCL 1107 Lab: Physics  Siraj
+CSCL 1107 Lab: Physics  Siraj
+
+
+Section: 1
+Day: 0
+
+
+
+
+CSCL 1108 Lab; Introduction to Computer Science Kausar Shaheen
+CSCL 1108 Lab; Introduction to Computer Science Kausar Shaheen
+
+
+Day: 1
+
+
+
+
+
+CSCL 1107 Lab: Physics  Khalil
+CSCL 1107 Lab: Physics  Khalil
+
+Day: 2
+
+
+
+
+
+
+
+
+Day: 3
+
+CSC 1103 Fundamentals of Programming  Khalid Rasheed
+CSC 1103 Fundamentals of Programming  Khalid Rasheed
+CSC 1108 Introduction to Computer Science Adeel K
+
+
+CSC 1101 Calculus & Analytical Geometry Syed Inam
+CSC 1101 Calculus & Analytical Geometry Syed Inam
+Day: 4
+CSCL 1103 Fundamentals of Programming Lab Rabia S
+CSCL 1103 Fundamentals of Programming Lab Rabia S
+
+
+
+
+
+
+Day: 5
+
+
+
+
+CSC 1102 English Composition & Comprehension Ufaq binte Jamal
+CSC 1102 English Composition & Comprehension Ufaq binte Jamal
+
+
+Section: 2
+Day: 0
+
+
+
+
+CSCL 1108 Lab; Introduction to Computer Science Madiha N
+CSC 1102 English Composition & Comprehension Beenish Chaudhry
+CSC 1102 English Composition & Comprehension Beenish Chaudhry
+
+Day: 1
+
+
+
+
+
+CSC 1107 Physics  M. Ahsan
+CSC 1107 Physics  M. Ahsan
+
+Day: 2
+
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+
+
+
+
+
+Day: 3
+
+
+CSC 1108 Introduction to Computer Science Adeel K
+CSC 1108 Introduction to Computer Science Adeel K
+
+
+
+
+Day: 4
+CSC 1103 Fundamentals of Programming  Khalid Rasheed
+CSC 1103 Fundamentals of Programming  Khalid Rasheed
+
+
+
+
+
+
+Day: 5
+
+
+
+
+CSCL 1107 Lab: Physics  Iffat Islam
+CSCL 1107 Lab: Physics  Iffat Islam
+
+
+Section: 3
+Day: 0
+
+
+
+
+CSC 1102 English Composition & Comprehension Ufaq binte Jamal
+CSC 1102 English Composition & Comprehension Ufaq binte Jamal
+CSCL 1107 Lab: Physics  Iffat Islam
+
+Day: 1
+
+
+
+
+
+
+
+
+Day: 2
+
+
+
+
+
+
+
+
+Day: 3
+
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+CSC 1108 Introduction to Computer Science Asim Riaz
+
+
+CSCL 1108 Lab; Introduction to Computer Science Kausar Shaheen
+CSCL 1108 Lab; Introduction to Computer Science Kausar Shaheen
+Day: 4
+CSC 1103 Fundamentals of Programming  Adeel Ahmed
+CSC 1103 Fundamentals of Programming  Adeel Ahmed
+
+
+
+
+
+
+Day: 5
+
+
+
+
+CSC 1107 Physics  M. Ahsan
+CSC 1107 Physics  M. Ahsan
+
+
+Section: 4
+Day: 0
+
+
+
+
+
+CSC 1102 English Composition & Comprehension Farhanuddin
+CSC 1102 English Composition & Comprehension Farhanuddin
+
+Day: 1
+
+
+
+
+
+
+
+
+Day: 2
+
+CSC 1101 Calculus & Analytical Geometry Kiran Velani
+CSC 1101 Calculus & Analytical Geometry Kiran Velani
+
+
+
+
+
+Day: 3
+
+CSC 1103 Fundamentals of Programming  Adeel Ahmed
+CSC 1103 Fundamentals of Programming  Adeel Ahmed
+CSC 1108 Introduction to Computer Science Asim Riaz
+
+
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+Day: 4
+CSCL 1103 Fundamentals of Programming Lab Madiha N
+CSCL 1103 Fundamentals of Programming Lab Madiha N
+
+
+
+
+
+
+Day: 5
+
+
+
+
+CSCL 1107 Lab: Physics  Khalil
+CSCL 1107 Lab: Physics  Khalil
+
+
+Section: 5
+Day: 0
+
+
+
+
+CSC 1102 English Composition & Comprehension Farhanuddin
+CSC 1102 English Composition & Comprehension Farhanuddin
+CSCL 1107 Lab: Physics  Khalil
+∂@€¯
+Day: 1
+
+
+
+
+¥
+CSCL 1103 Fundamentals of Programming Lab Momel Rehman
+CSCL 1103 Fundamentals of Programming Lab Momel Rehman
+¯
+Day: 2
+
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+
+
+
+à·a
+
+Day: 3
+
+
+
+
+
+
+
+0
+Day: 4
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+CSC 1101 Calculus & Analytical Geometry Waqar Malik
+
+p
+
+r
+
+
+Day: 5
+
+
+
+
+CSC 1107 Physics  M Umair Arif 
+CSC 1107 Physics  M Umair Arif 
+
+
+Section: 6
+Day: 0
+êÈa
+
+ 
+
+CSCL 1107 Lab: Physics  Khalil
+CSCL 1107 Lab: Physics  Khalil
+CSC 1107 Physics  Naveel Arshad
+_§p›¯
+Day: 1
+
+.
+CSC 1102 English Composition & Comprehension Wishaal Khalid
+CSC 1102 English Composition & Comprehension Wishaal Khalid
+
+
+
+
+Day: 2
+
+`
+ &   ! ∆0 `9 Rç
+
+
+csm‡
+Òïp›¯
+Ä
+Day: 3
+
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+CSCL 1108 Lab; Introduction to Computer Science Sadia Aziz
+CSC 1108 Introduction to Computer Science Sikander
+
+
+
+
+Day: 4
+CSC 1101 Calculus & Analytical Geometry Kiran Velani
+CSC 1101 Calculus & Analytical Geometry Kiran Velani
+Ë
+
+‡˙a
+
+
+áﬂr›¯
+Day: 5
+
+÷
+Í
+
+CSCL 1103 Fundamentals of Programming Lab Momel Rehman
+CSCL 1103 Fundamentals of Programming Lab Momel Rehman
+
+¯
