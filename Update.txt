@@ -1,7 +1,0 @@
-CSC 2201	Computer Organization & Assembly Language	Saqib S	Shahzad H	Ali Reza	Shahzad H	Ali Reza	Nudrat	Nudrat		
-CSCL 2201	Lab; Computer Organization & Assembly Language	Mubeen	Mubeen	Bao	Mubeen	Siraj	Juveria Abbas	Juveria Abbas		
-CSC 2102	Data Structures and Algorithms	Myra S	Myra S	Taha Danish	Myra S	Dr. Husnain	S. Nabeel	S. Nabeel		
-CSCL 2102	Lab: Data Structures and Algorithms	Saad Farhan	Saad Farhan	Syed M Hassan	Syed M Hassan	Syed M Hassan	Syed M Hassan			
-CSC 1201	Discrete Maths	Asif Khalid	Asif Khalid	Faria J	Aqil Khan	Asif Khalid	Asif Khalid	Faria J		
-CSC 4102	Professional Practices	Naveed Ghani	Faizan Tahir	Naveed Ghani	Naveed Ghani	Naveed Ghani	Faizan Tahir	Fatima Samar		
-CSC xxxx	MVC/Differential Equations	Shaheer B	Shaheer B	Dania	Dania	Shahzaib S	Shahzaib S	Syed Inam		
