@@ -19,12 +19,10 @@ void garbageCollector(G * table) {
             }
             
         }
-        
     }
 }
 
 void generator(G *generatedTable, T timeTable, C classRooms, int sec) {
-    srand(time(0));
     if (sec == SECNO) {
         return;
     }
@@ -32,13 +30,16 @@ void generator(G *generatedTable, T timeTable, C classRooms, int sec) {
         for(int i = 0; i < 8; i++) {
             again:
             rand_period = RANDOM(PERIODS);
-            rand_room = RANDOM(ROOMS);
+            if (!strcmp(timeTable.courseType[i], "CSCL")) rand_room = RANDOM(LABS);
+            else rand_room = RANDOM(ROOMS);
             rand_day = RANDOM(DAYS);
             if (IsTaken[ROOMS][PERIODS][DAYS] || IsTaken[ROOMS][PERIODS+1][DAYS]) goto again;
             else
             {
                 memset(content, '\0', SLOTLENGTH);
-                strcpy(content, timeTable.courseCode[i]);
+                strcpy(content, timeTable.courseType[i]);
+                strcat(content, " ");
+                strcat(content, timeTable.courseCode[i]);
                 strcat(content, "; ");
                 strcat(content, timeTable.subjectName[i]);
                 strcat(content, "; ");

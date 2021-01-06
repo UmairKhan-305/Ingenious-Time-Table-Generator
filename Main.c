@@ -26,6 +26,7 @@ int main () {
     cont = getche();
        
     if(cont != 'y' || cont != 'Y') {
+        srand(time(0));
         garbageCollector(&generatedTable);
         generator(&generatedTable, timeTable, classes, 0);
         displayTable(generatedTable);

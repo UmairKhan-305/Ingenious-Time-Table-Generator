@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "declaration.h"
 
 char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
@@ -19,8 +18,8 @@ void create(T *timeTable, C *classRooms) {
     }
 
     while(fgets(line, sizeof(line), infile) != NULL) {
-        sscanf(line, "%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\n]", 
-        timeTable->courseCode[i], timeTable->subjectName[i], timeTable->teachers[i][0], timeTable->teachers[i][1], timeTable->teachers[i][2], timeTable->teachers[i][3], timeTable->teachers[i][4], timeTable->teachers[i][5], timeTable->teachers[i][6]);
+        sscanf(line, "%s%s\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\t]\t%[^\n]", 
+        timeTable->courseType[i] ,timeTable->courseCode[i], timeTable->subjectName[i], timeTable->teachers[i][0], timeTable->teachers[i][1], timeTable->teachers[i][2], timeTable->teachers[i][3], timeTable->teachers[i][4], timeTable->teachers[i][5], timeTable->teachers[i][6]);
 
         i++; 
     }
@@ -46,7 +45,7 @@ void read(T timeTable, C classRooms) {
     printf("Semester Details:\n");
     for(int i = 0; i < COURSE; i++) {
         printf("\n");
-        printf("%s\t | ", timeTable.courseCode[i]);
+        printf("%s %s\t | ", timeTable.courseType[i] ,timeTable.courseCode[i]);
         printf("%s\t | ", timeTable.subjectName[i]);
         
         for(int j = 0; j < SECNO; j++){
@@ -57,7 +56,7 @@ void read(T timeTable, C classRooms) {
         printf("__________________________________________________________\n");
     }
 
-    printf("Class Rooms: (Room) | (Campus) \n");
+    printf("Class Rooms: \n");
     for (int i = 0; i < ROOMS; i++)
     {
         printf("%s\n", classRooms.class[i]);

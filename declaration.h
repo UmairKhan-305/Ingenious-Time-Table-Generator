@@ -9,13 +9,15 @@
 #define DAYS 6
 #define ROOMS 25
 #define SLOTLENGTH 100
+#define LABS 5
 
 typedef struct TimeTables T;
 typedef struct GeneratedTable G;
 typedef struct ClassRooms C;
 
 struct TimeTables {
-    char courseCode[COURSE][10];
+    char courseType[COURSE][5];
+    char courseCode[COURSE][5];
     char subjectName[COURSE][50];
     char teachers[COURSE][SECNO][20];
 };

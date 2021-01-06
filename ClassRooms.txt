@@ -1,3 +1,8 @@
+Lab-CS
+Lab-3
+Lab-4
+Lab-5
+Smart Lab
 Room-106
 Room-410
 Room-402
@@ -8,11 +13,6 @@ Room-408
 Room-307
 Room-302
 Room-305
-Lab-CS
-Lab-3
-Lab-4
-Lab-5
-Smart Lab
 Room-107
 Room-108
 Room-201
@@ -22,4 +22,3 @@ Room-205
 Room-204
 Room-01
 Room-07
-CS-Physics-Lab
