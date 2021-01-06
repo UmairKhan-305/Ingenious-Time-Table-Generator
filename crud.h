@@ -42,30 +42,40 @@ void create(T *timeTable, C *classRooms) {
 }
 
 void read(T timeTable, C classRooms) {
-    printf("Semester Details:\n");
-    for(int i = 0; i < COURSE; i++) {
-        printf("\n");
-        printf("%s %s\t | ", timeTable.courseType[i] ,timeTable.courseCode[i]);
-        printf("%s\t | ", timeTable.subjectName[i]);
-        
-        for(int j = 0; j < SECNO; j++){
-            printf("%c. %s |\t", sec[j], timeTable.teachers[i][j]);
-        }
-
-        printf("\n");
-        printf("__________________________________________________________\n");
-    }
-
-    printf("Class Rooms: \n");
-    for (int i = 0; i < ROOMS; i++)
+    printf("Do you wish to view the teacher allocations for subjects for the semester? ");
+    scanf(" %c", &flag);
+    if (flag == 'Y' || flag == 'y')
     {
-        printf("%s\n", classRooms.class[i]);
+        printf("Semester Details:\n");
+        for(int i = 0; i < COURSE; i++) {
+            printf("\n");
+            printf("%s %s\t | ", timeTable.courseType[i] ,timeTable.courseCode[i]);
+            printf("%s\t | ", timeTable.subjectName[i]);
+            
+            for(int j = 0; j < SECNO; j++){
+                printf("%c. %s |\t", sec[j], timeTable.teachers[i][j]);
+            }
+
+            printf("\n");
+            printf("__________________________________________________________\n");
+        }
+    }
+    
+    printf("Do you wish to view the class rooms available? ");
+    scanf(" %c", &flag);
+    if (flag == 'Y' || flag == 'y')
+    {
+        printf("Class Rooms: \n");
+        for (int i = 0; i < ROOMS; i++)
+        {
+            printf("%s\n", classRooms.class[i]);
+        }
     }
 }
 
 void update(T timeTable){
     printf("Do you wish to change Instructors? (Y/N): ");
-        scanf(" %c", &flag);
+    scanf(" %c", &flag);
 
     switch (flag)
     {

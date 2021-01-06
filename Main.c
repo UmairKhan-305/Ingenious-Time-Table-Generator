@@ -14,7 +14,6 @@ int main () {
     G generatedTable;
     C classes;
     char cont;
-    // char classRooms[ROOMS][14] = {0};
     
     create(&timeTable, &classes);
 
