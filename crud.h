@@ -1,6 +1,5 @@
 #include "declaration.h"
 
-char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 char flag = 'N', flag1 = 'N';
 int k, l, check;
 
@@ -41,10 +40,8 @@ void create(T *timeTable, C *classRooms) {
     fclose(infile);
 }
 
-void read(T timeTable, C classRooms) {
-    printf("Do you wish to view the teacher allocations for subjects for the semester? ");
-    scanf(" %c", &flag);
-    if (flag == 'Y' || flag == 'y')
+void read(T timeTable, C classRooms, int choice) {
+    if (choice == 1)
     {
         printf("Semester Details:\n");
         for(int i = 0; i < COURSE; i++) {
@@ -60,10 +57,7 @@ void read(T timeTable, C classRooms) {
             printf("__________________________________________________________\n");
         }
     }
-    
-    printf("Do you wish to view the class rooms available? ");
-    scanf(" %c", &flag);
-    if (flag == 'Y' || flag == 'y')
+    else
     {
         printf("Class Rooms: \n");
         for (int i = 0; i < ROOMS; i++)

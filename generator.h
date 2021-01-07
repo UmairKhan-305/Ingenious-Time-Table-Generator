@@ -69,13 +69,13 @@ void displayTable(G table) {
     infile = fopen(inname, "w");
 
     for (int i = 0; i < SECNO; i++) {
-        fprintf(infile, "\nSection: %d\n", i);
+        fprintf(infile, "\nSection: %c\n", sec[i]);
         fprintf(infile, "---------------------------------\n");
         for (int j = 0; j < DAYS; j++) {
-            fprintf(infile, "\nDay: %d\n", j);
+            fprintf(infile, "\nDay: %s\n", day[j]);
             fprintf(infile, "---------------------------------\n");
             for (int k = 0; k < PERIODS; k++) {
-                fprintf(infile, "Slot: %d\t|\t%s\n", k, table.table[i][k][j]);
+                fprintf(infile, "Slot: %d\t|\t%s\n", (k+1), table.table[i][k][j]);
             }
         }
     }

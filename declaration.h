@@ -29,3 +29,6 @@ struct GeneratedTable {
 struct ClassRooms {
     char class[ROOMS][14];
 };
+
+char sec[SECNO] = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
+char day[DAYS][10] = {{"Monday"}, {"Tuesday"}, {"Wednesday"}, {"Thursday"}, {"Friday"}, {"Saturday"}};

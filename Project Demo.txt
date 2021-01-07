@@ -1,0 +1,10 @@
+Choose a word project template
+Project Title
+Project Members
+Project Project description
+Project Scope
+Out of scope
+C features used
+A small menu with dense algorithms hiding complexities from the user and making it simple and obvious to use
+Project Demo with screen shots
+Turnit in report

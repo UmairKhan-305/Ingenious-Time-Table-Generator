@@ -3,7 +3,7 @@
 #include "generator.h"
 
 void create (T *, C *);
-void read (T, C);
+void read (T, C,int);
 void update (T);
 void generator (G *, T, C, int);
 void displayTable (G);
@@ -14,21 +14,50 @@ int main () {
     G generatedTable;
     C classes;
     char cont;
+    int choice;
     
     create(&timeTable, &classes);
+    printf("\nFile processing successful...\n");
 
-    read(timeTable, classes);
+    do
+    {
+        printf("\n1. View allocations\n");
+        printf("2. View class rooms\n");
+        printf("3. Update allocations\n");
+        printf("4. Generate time table\n");
+        printf("0. Exit program\n");
+        printf("\nPlease enter your choice: ");
+        scanf(" %d", &choice);
 
-    update(timeTable);
+        switch (choice)
+        {
+        case 1:
+        case 2:
+            read(timeTable, classes, choice);
+            break;
 
-    printf("Generate Time Table? ");
-    cont = getche();
-       
-    if(cont != 'y' || cont != 'Y') {
-        srand(time(0));
-        garbageCollector(&generatedTable);
-        generator(&generatedTable, timeTable, classes, 0);
-        displayTable(generatedTable);
-        printf("\nTime Table generated\n");
-    }
+        case 3:
+            update(timeTable);
+            break;
+
+        case 4:
+            srand(time(0));
+            garbageCollector(&generatedTable);
+            generator(&generatedTable, timeTable, classes, 0);
+            displayTable(generatedTable);
+            printf("\nTime Table generated...");
+            printf("\nView timetable (Y/N)? ");
+            cont = getche();
+            if (cont == 'y' || cont == 'Y') system("notepad '.\\Time Table.txt'");
+            break;
+
+        case 0:
+            printf("\nExiting program gracefully...\n");
+            break;
+        
+        default:
+            printf("\nInvalid choice please verify again...\n");
+            break;
+        }
+    } while (choice != 0);
 }
