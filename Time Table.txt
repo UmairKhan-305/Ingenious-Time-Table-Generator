@@ -5,10 +5,10 @@ Section: A
 Day: Monday
 ---------------------------------
 Slot: 1	|	
-Slot: 2	|	
-Slot: 3	|	
-Slot: 4	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-302
-Slot: 5	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-302
+Slot: 2	|	CSC 1108; Introduction to Computer Science; Adeel K; Room-402
+Slot: 3	|	CSC 1108; Introduction to Computer Science; Adeel K; Room-402
+Slot: 4	|	
+Slot: 5	|	
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
@@ -20,9 +20,9 @@ Slot: 2	|
 Slot: 3	|	
 Slot: 4	|	
 Slot: 5	|	
-Slot: 6	|	
-Slot: 7	|	
-Slot: 8	|	
+Slot: 6	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-CS
+Slot: 7	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-CS
+Slot: 8	|	CSC 1102; English Composition & Comprehension; Imran Hassan; Room-407
 
 Day: Wednesday
 ---------------------------------
@@ -30,29 +30,29 @@ Slot: 1	|
 Slot: 2	|	
 Slot: 3	|	
 Slot: 4	|	
-Slot: 5	|	CSC 1102; English Composition & Comprehension; Imran Hassan; Room-405
-Slot: 6	|	CSC 1102; English Composition & Comprehension; Imran Hassan; Room-405
+Slot: 5	|	
+Slot: 6	|	
 Slot: 7	|	
-Slot: 8	|	CSC 1107; Physics ; Masood A; Lab-CS
+Slot: 8	|	
 
 Day: Thursday
 ---------------------------------
 Slot: 1	|	
-Slot: 2	|	
-Slot: 3	|	
+Slot: 2	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-4
+Slot: 3	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-4
 Slot: 4	|	
 Slot: 5	|	
-Slot: 6	|	CSC 1108; Introduction to Computer Science; Adeel K; Room-202
-Slot: 7	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-407
-Slot: 8	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-407
+Slot: 6	|	
+Slot: 7	|	
+Slot: 8	|	
 
 Day: Friday
 ---------------------------------
-Slot: 1	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-CS
-Slot: 2	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-CS
-Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	
+Slot: 1	|	
+Slot: 2	|	
+Slot: 3	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-410
+Slot: 4	|	CSCL 1107; Lab: Physics ; Siraj; Lab-4
+Slot: 5	|	CSCL 1107; Lab: Physics ; Siraj; Lab-4
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
@@ -65,8 +65,8 @@ Slot: 3	|
 Slot: 4	|	
 Slot: 5	|	
 Slot: 6	|	
-Slot: 7	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-3
-Slot: 8	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-3
+Slot: 7	|	CSC 1107; Physics ; Masood A; Room-402
+Slot: 8	|	CSC 1107; Physics ; Masood A; Room-402
 
 Section: B
 ---------------------------------
@@ -76,15 +76,15 @@ Day: Monday
 Slot: 1	|	
 Slot: 2	|	
 Slot: 3	|	
-Slot: 4	|	CSCL 1107; Lab: Physics ; Khalil; Lab-4
-Slot: 5	|	CSCL 1107; Lab: Physics ; Khalil; Lab-4
+Slot: 4	|	
+Slot: 5	|	
 Slot: 6	|	
-Slot: 7	|	
-Slot: 8	|	
+Slot: 7	|	CSC 1101; Calculus & Analytical Geometry; Syed Inam; Room-107
+Slot: 8	|	CSC 1101; Calculus & Analytical Geometry; Syed Inam; Room-107
 
 Day: Tuesday
 ---------------------------------
-Slot: 1	|	
+Slot: 1	|	CSC 1102; English Composition & Comprehension; Imran Hassan; Room-407
 Slot: 2	|	
 Slot: 3	|	
 Slot: 4	|	
@@ -95,80 +95,80 @@ Slot: 8	|
 
 Day: Wednesday
 ---------------------------------
-Slot: 1	|	CSC 1107; Physics ; Masood A; Lab-CS
+Slot: 1	|	
 Slot: 2	|	
 Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	
+Slot: 4	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; Room-407
+Slot: 5	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; Room-407
 Slot: 6	|	
 Slot: 7	|	
-Slot: 8	|	CSC 1108; Introduction to Computer Science; Adeel K; Lab-4
+Slot: 8	|	
 
 Day: Thursday
 ---------------------------------
 Slot: 1	|	
 Slot: 2	|	
-Slot: 3	|	CSC 1107; Physics ; Masood A; Room-405
-Slot: 4	|	CSC 1107; Physics ; Masood A; Room-405
-Slot: 5	|	
+Slot: 3	|	
+Slot: 4	|	CSC 1108; Introduction to Computer Science; Adeel K; 
+Slot: 5	|	CSC 1108; Introduction to Computer Science; Adeel K; 
 Slot: 6	|	
-Slot: 7	|	
-Slot: 8	|	
+Slot: 7	|	CSCL 1108; Lab: Introduction to Computer Science; Kausar Shaheen; Lab-5
+Slot: 8	|	CSCL 1108; Lab: Introduction to Computer Science; Kausar Shaheen; Lab-5
 
 Day: Friday
 ---------------------------------
 Slot: 1	|	
 Slot: 2	|	
 Slot: 3	|	
-Slot: 4	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; Smart Lab
-Slot: 5	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; Smart Lab
-Slot: 6	|	CSC 1101; Calculus & Analytical Geometry; Syed Inam; Room-202
+Slot: 4	|	
+Slot: 5	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-409
+Slot: 6	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-409
 Slot: 7	|	
 Slot: 8	|	
 
 Day: Saturday
 ---------------------------------
-Slot: 1	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; 
-Slot: 2	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; 
-Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-4
+Slot: 1	|	
+Slot: 2	|	CSCL 1107; Lab: Physics ; Khalil; Lab-CS
+Slot: 3	|	CSCL 1107; Lab: Physics ; Khalil; Lab-CS
+Slot: 4	|	CSC 1107; Physics ; Masood A; Room-410
+Slot: 5	|	CSC 1107; Physics ; Masood A; Room-410
 Slot: 6	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-4
-Slot: 7	|	CSCL 1108; Lab: Introduction to Computer Science; Kausar Shaheen; Lab-CS
-Slot: 8	|	CSCL 1108; Lab: Introduction to Computer Science; Kausar Shaheen; Lab-CS
+Slot: 7	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-4
+Slot: 8	|	
 
 Section: C
 ---------------------------------
 
 Day: Monday
 ---------------------------------
-Slot: 1	|	
-Slot: 2	|	
-Slot: 3	|	
+Slot: 1	|	CSC 1108; Introduction to Computer Science; Adeel K; 
+Slot: 2	|	CSC 1102; English Composition & Comprehension; Beenish Chaudhry; Room-108
+Slot: 3	|	CSC 1102; English Composition & Comprehension; Beenish Chaudhry; Room-108
+Slot: 4	|	
+Slot: 5	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-CS
+Slot: 6	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-CS
+Slot: 7	|	
+Slot: 8	|	
+
+Day: Tuesday
+---------------------------------
+Slot: 1	|	CSC 1107; Physics ; M. Ahsan; Room-107
+Slot: 2	|	CSC 1107; Physics ; M. Ahsan; Room-107
+Slot: 3	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-408
 Slot: 4	|	
 Slot: 5	|	
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
 
-Day: Tuesday
+Day: Wednesday
 ---------------------------------
 Slot: 1	|	
 Slot: 2	|	
-Slot: 3	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-3
-Slot: 4	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-3
-Slot: 5	|	CSCL 1107; Lab: Physics ; Iffat Islam; Lab-4
-Slot: 6	|	CSCL 1107; Lab: Physics ; Iffat Islam; Lab-4
-Slot: 7	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-202
-Slot: 8	|	CSC 1107; Physics ; M. Ahsan; Lab-3
-
-Day: Wednesday
----------------------------------
-Slot: 1	|	CSC 1108; Introduction to Computer Science; Adeel K; Lab-4
-Slot: 2	|	
 Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	
+Slot: 4	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-302
+Slot: 5	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-302
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
@@ -186,13 +186,13 @@ Slot: 8	|
 
 Day: Friday
 ---------------------------------
-Slot: 1	|	CSCL 1108; Lab: Introduction to Computer Science; Madiha N; Lab-CS
-Slot: 2	|	CSCL 1108; Lab: Introduction to Computer Science; Madiha N; Lab-CS
-Slot: 3	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-204
-Slot: 4	|	CSC 1103; Fundamentals of Programming ; Khalid Rasheed; Room-204
+Slot: 1	|	
+Slot: 2	|	CSCL 1108; Lab: Introduction to Computer Science; Madiha N; Lab-3
+Slot: 3	|	CSCL 1108; Lab: Introduction to Computer Science; Madiha N; Lab-3
+Slot: 4	|	
 Slot: 5	|	
-Slot: 6	|	CSC 1102; English Composition & Comprehension; Beenish Chaudhry; Room-107
-Slot: 7	|	CSC 1102; English Composition & Comprehension; Beenish Chaudhry; Room-107
+Slot: 6	|	
+Slot: 7	|	
 Slot: 8	|	
 
 Day: Saturday
@@ -211,33 +211,33 @@ Section: D
 
 Day: Monday
 ---------------------------------
-Slot: 1	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-3
-Slot: 2	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-3
+Slot: 1	|	
+Slot: 2	|	
 Slot: 3	|	
 Slot: 4	|	
 Slot: 5	|	
-Slot: 6	|	
-Slot: 7	|	
-Slot: 8	|	CSC 1107; Physics ; M. Ahsan; Room-205
+Slot: 6	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-307
+Slot: 7	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-307
+Slot: 8	|	
 
 Day: Tuesday
 ---------------------------------
-Slot: 1	|	CSC 1107; Physics ; M. Ahsan; Lab-3
-Slot: 2	|	
-Slot: 3	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; Room-201
-Slot: 4	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; Room-201
-Slot: 5	|	
+Slot: 1	|	
+Slot: 2	|	CSCL 1107; Lab: Physics ; Iffat Islam; Lab-5
+Slot: 3	|	CSCL 1107; Lab: Physics ; Iffat Islam; Lab-5
+Slot: 4	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-4
+Slot: 5	|	CSCL 1103; Fundamentals of Programming Lab; Rabia S; Lab-4
 Slot: 6	|	
-Slot: 7	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-01
-Slot: 8	|	CSC 1103; Fundamentals of Programming ; Adeel Ahmed; Room-305
+Slot: 7	|	
+Slot: 8	|	
 
 Day: Wednesday
 ---------------------------------
 Slot: 1	|	
 Slot: 2	|	
 Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	
+Slot: 4	|	CSC 1107; Physics ; M. Ahsan; Room-106
+Slot: 5	|	CSC 1107; Physics ; M. Ahsan; Room-106
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
@@ -245,24 +245,24 @@ Slot: 8	|
 Day: Thursday
 ---------------------------------
 Slot: 1	|	
-Slot: 2	|	
-Slot: 3	|	
+Slot: 2	|	CSC 1108; Introduction to Computer Science; Asim Riaz; Room-407
+Slot: 3	|	CSC 1108; Introduction to Computer Science; Asim Riaz; Room-407
 Slot: 4	|	
-Slot: 5	|	CSCL 1108; Lab: Introduction to Computer Science; Kausar Shaheen; Lab-4
-Slot: 6	|	CSCL 1108; Lab: Introduction to Computer Science; Kausar Shaheen; Lab-4
+Slot: 5	|	
+Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
 
 Day: Friday
 ---------------------------------
 Slot: 1	|	
-Slot: 2	|	
-Slot: 3	|	
-Slot: 4	|	
+Slot: 2	|	CSCL 1108; Lab: Introduction to Computer Science; Kausar Shaheen; Lab-5
+Slot: 3	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; 
+Slot: 4	|	CSC 1102; English Composition & Comprehension; Ufaq binte Jamal; 
 Slot: 5	|	
 Slot: 6	|	
-Slot: 7	|	CSCL 1107; Lab: Physics ; Iffat Islam; Lab-3
-Slot: 8	|	CSCL 1107; Lab: Physics ; Iffat Islam; Lab-3
+Slot: 7	|	
+Slot: 8	|	
 
 Day: Saturday
 ---------------------------------
@@ -272,33 +272,33 @@ Slot: 3	|
 Slot: 4	|	
 Slot: 5	|	
 Slot: 6	|	
-Slot: 7	|	
-Slot: 8	|	
+Slot: 7	|	CSC 1103; Fundamentals of Programming ; Adeel Ahmed; Lab-3
+Slot: 8	|	CSC 1103; Fundamentals of Programming ; Adeel Ahmed; Lab-3
 
 Section: E
 ---------------------------------
 
 Day: Monday
 ---------------------------------
-Slot: 1	|	CSC 1107; Physics ; M. Ahsan; Room-205
+Slot: 1	|	
 Slot: 2	|	
-Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	CSC 1102; English Composition & Comprehension; Farhanuddin; Room-408
-Slot: 6	|	CSC 1102; English Composition & Comprehension; Farhanuddin; Room-408
-Slot: 7	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-3
+Slot: 3	|	CSCL 1107; Lab: Physics ; Khalil; Lab-5
+Slot: 4	|	CSCL 1107; Lab: Physics ; Khalil; Lab-5
+Slot: 5	|	
+Slot: 6	|	
+Slot: 7	|	
 Slot: 8	|	
 
 Day: Tuesday
 ---------------------------------
-Slot: 1	|	CSC 1103; Fundamentals of Programming ; Adeel Ahmed; Room-305
-Slot: 2	|	
+Slot: 1	|	CSC 1101; Calculus & Analytical Geometry; Kiran Velani; 
+Slot: 2	|	CSC 1101; Calculus & Analytical Geometry; Kiran Velani; 
 Slot: 3	|	
 Slot: 4	|	
 Slot: 5	|	
 Slot: 6	|	
 Slot: 7	|	
-Slot: 8	|	CSC 1103; Fundamentals of Programming ; Adeel Ahmed; Room-408
+Slot: 8	|	
 
 Day: Wednesday
 ---------------------------------
@@ -313,28 +313,6 @@ Slot: 8	|
 
 Day: Thursday
 ---------------------------------
-Slot: 1	|	CSC 1107; Physics ; M Umair Arif ; Room-405
-Slot: 2	|	CSC 1107; Physics ; M Umair Arif ; Room-405
-Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	
-Slot: 6	|	
-Slot: 7	|	
-Slot: 8	|	
-
-Day: Friday
----------------------------------
-Slot: 1	|	CSC 1108; Introduction to Computer Science; Asim Riaz; Lab-4
-Slot: 2	|	CSCL 1107; Lab: Physics ; Khalil; Lab-5
-Slot: 3	|	CSCL 1107; Lab: Physics ; Khalil; Lab-5
-Slot: 4	|	
-Slot: 5	|	
-Slot: 6	|	CSCL 1103; Fundamentals of Programming Lab; Madiha N; Smart Lab
-Slot: 7	|	CSCL 1103; Fundamentals of Programming Lab; Madiha N; Smart Lab
-Slot: 8	|	
-
-Day: Saturday
----------------------------------
 Slot: 1	|	
 Slot: 2	|	
 Slot: 3	|	
@@ -342,7 +320,29 @@ Slot: 4	|
 Slot: 5	|	
 Slot: 6	|	
 Slot: 7	|	
-Slot: 8	|	
+Slot: 8	|	CSC 1108; Introduction to Computer Science; Asim Riaz; Lab-3
+
+Day: Friday
+---------------------------------
+Slot: 1	|	
+Slot: 2	|	CSC 1103; Fundamentals of Programming ; Adeel Ahmed; Lab-5
+Slot: 3	|	CSC 1107; Physics ; M Umair Arif ; Lab-4
+Slot: 4	|	CSC 1107; Physics ; M Umair Arif ; Lab-4
+Slot: 5	|	
+Slot: 6	|	
+Slot: 7	|	
+Slot: 8	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-4
+
+Day: Saturday
+---------------------------------
+Slot: 1	|	
+Slot: 2	|	
+Slot: 3	|	
+Slot: 4	|	
+Slot: 5	|	CSC 1102; English Composition & Comprehension; Farhanuddin; 
+Slot: 6	|	CSC 1102; English Composition & Comprehension; Farhanuddin; 
+Slot: 7	|	CSCL 1103; Fundamentals of Programming Lab; Madiha N; Smart Lab
+Slot: 8	|	CSCL 1103; Fundamentals of Programming Lab; Madiha N; Smart Lab
 
 Section: F
 ---------------------------------
@@ -351,28 +351,28 @@ Day: Monday
 ---------------------------------
 Slot: 1	|	
 Slot: 2	|	
-Slot: 3	|	CSC 1102; English Composition & Comprehension; Farhanuddin; Smart Lab
-Slot: 4	|	CSC 1102; English Composition & Comprehension; Farhanuddin; Smart Lab
-Slot: 5	|	
-Slot: 6	|	
-Slot: 7	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-201
-Slot: 8	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Room-201
-
-Day: Tuesday
----------------------------------
-Slot: 1	|	CSC 1103; Fundamentals of Programming ; Adeel Ahmed; Room-408
-Slot: 2	|	
 Slot: 3	|	
 Slot: 4	|	
 Slot: 5	|	
-Slot: 6	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-5
-Slot: 7	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-5
+Slot: 6	|	
+Slot: 7	|	
+Slot: 8	|	
+
+Day: Tuesday
+---------------------------------
+Slot: 1	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-4
+Slot: 2	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-4
+Slot: 3	|	
+Slot: 4	|	CSC 1103; Fundamentals of Programming ; Dr. Amir S; Room-201
+Slot: 5	|	CSC 1103; Fundamentals of Programming ; Dr. Amir S; Room-201
+Slot: 6	|	
+Slot: 7	|	
 Slot: 8	|	
 
 Day: Wednesday
 ---------------------------------
-Slot: 1	|	
-Slot: 2	|	
+Slot: 1	|	CSC 1102; English Composition & Comprehension; Farhanuddin; Room-07
+Slot: 2	|	CSC 1102; English Composition & Comprehension; Farhanuddin; Room-07
 Slot: 3	|	
 Slot: 4	|	
 Slot: 5	|	
@@ -382,33 +382,33 @@ Slot: 8	|
 
 Day: Thursday
 ---------------------------------
-Slot: 1	|	
+Slot: 1	|	CSC 1108; Introduction to Computer Science; Asim Riaz; Lab-3
 Slot: 2	|	
 Slot: 3	|	
 Slot: 4	|	
 Slot: 5	|	
 Slot: 6	|	
-Slot: 7	|	CSC 1103; Fundamentals of Programming ; Dr. Amir S; Room-204
-Slot: 8	|	CSC 1103; Fundamentals of Programming ; Dr. Amir S; Room-204
+Slot: 7	|	
+Slot: 8	|	
 
 Day: Friday
 ---------------------------------
-Slot: 1	|	
-Slot: 2	|	
+Slot: 1	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Lab-CS
+Slot: 2	|	CSC 1101; Calculus & Analytical Geometry; Waqar Malik; Lab-CS
 Slot: 3	|	
 Slot: 4	|	
-Slot: 5	|	CSCL 1107; Lab: Physics ; Khalil; Smart Lab
-Slot: 6	|	CSCL 1107; Lab: Physics ; Khalil; Smart Lab
-Slot: 7	|	CSC 1108; Introduction to Computer Science; Adeel K; Room-201
-Slot: 8	|	CSC 1108; Introduction to Computer Science; Adeel K; Room-201
+Slot: 5	|	
+Slot: 6	|	CSC 1107; Physics ; M Umair Arif ; Lab-5
+Slot: 7	|	CSC 1107; Physics ; M Umair Arif ; Lab-5
+Slot: 8	|	
 
 Day: Saturday
 ---------------------------------
 Slot: 1	|	
 Slot: 2	|	
-Slot: 3	|	
-Slot: 4	|	CSC 1107; Physics ; M Umair Arif ; Room-408
-Slot: 5	|	CSC 1107; Physics ; M Umair Arif ; Room-408
+Slot: 3	|	CSCL 1107; Lab: Physics ; Khalil; Lab-3
+Slot: 4	|	CSCL 1107; Lab: Physics ; Khalil; Lab-3
+Slot: 5	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-CS
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
@@ -419,30 +419,30 @@ Section: G
 Day: Monday
 ---------------------------------
 Slot: 1	|	
-Slot: 2	|	CSC 1108; Introduction to Computer Science; Sikander; 
-Slot: 3	|	CSC 1108; Introduction to Computer Science; Sikander; 
+Slot: 2	|	
+Slot: 3	|	
 Slot: 4	|	
-Slot: 5	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-CS
-Slot: 6	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-CS
-Slot: 7	|	
-Slot: 8	|	
-
-Day: Tuesday
----------------------------------
-Slot: 1	|	CSC 1107; Physics ; Naveel Arshad; Room-302
-Slot: 2	|	CSC 1107; Physics ; Naveel Arshad; Room-302
-Slot: 3	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-4
-Slot: 4	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-4
 Slot: 5	|	
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
 
+Day: Tuesday
+---------------------------------
+Slot: 1	|	
+Slot: 2	|	
+Slot: 3	|	
+Slot: 4	|	
+Slot: 5	|	CSCL 1107; Lab: Physics ; Khalil; Lab-3
+Slot: 6	|	CSCL 1107; Lab: Physics ; Khalil; Lab-3
+Slot: 7	|	CSC 1108; Introduction to Computer Science; Sikander; Room-302
+Slot: 8	|	CSC 1103; Fundamentals of Programming ; Dr. Amir S; Room-106
+
 Day: Wednesday
 ---------------------------------
 Slot: 1	|	
-Slot: 2	|	CSC 1101; Calculus & Analytical Geometry; Kiran Velani; Room-307
-Slot: 3	|	CSC 1101; Calculus & Analytical Geometry; Kiran Velani; Room-307
+Slot: 2	|	
+Slot: 3	|	
 Slot: 4	|	
 Slot: 5	|	
 Slot: 6	|	
@@ -454,8 +454,8 @@ Day: Thursday
 Slot: 1	|	
 Slot: 2	|	
 Slot: 3	|	
-Slot: 4	|	
-Slot: 5	|	
+Slot: 4	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-3
+Slot: 5	|	CSCL 1103; Fundamentals of Programming Lab; Momel Rehman; Lab-3
 Slot: 6	|	
 Slot: 7	|	
 Slot: 8	|	
@@ -463,13 +463,13 @@ Slot: 8	|
 Day: Friday
 ---------------------------------
 Slot: 1	|	
-Slot: 2	|	
-Slot: 3	|	
+Slot: 2	|	CSC 1107; Physics ; Naveel Arshad; Room-407
+Slot: 3	|	CSC 1107; Physics ; Naveel Arshad; Room-407
 Slot: 4	|	
-Slot: 5	|	
-Slot: 6	|	
-Slot: 7	|	CSC 1102; English Composition & Comprehension; Wishaal Khalid; Room-402
-Slot: 8	|	CSC 1102; English Composition & Comprehension; Wishaal Khalid; Room-402
+Slot: 5	|	CSC 1102; English Composition & Comprehension; Wishaal Khalid; Room-203
+Slot: 6	|	CSC 1102; English Composition & Comprehension; Wishaal Khalid; Room-203
+Slot: 7	|	
+Slot: 8	|	
 
 Day: Saturday
 ---------------------------------
@@ -480,4 +480,4 @@ Slot: 4	|
 Slot: 5	|	
 Slot: 6	|	
 Slot: 7	|	
-Slot: 8	|	CSCL 1107; Lab: Physics ; Khalil; Lab-4
+Slot: 8	|	CSCL 1108; Lab: Introduction to Computer Science; Sadia Aziz; Lab-4
