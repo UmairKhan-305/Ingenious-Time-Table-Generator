@@ -27,13 +27,13 @@ void generator(G *generatedTable, T timeTable, C classRooms, int sec) {
         return;
     }
     else {
-        for(int i = 0; i < 8; i++) {
+        for(int i = 0; i < COURSE; i++) {
             again:
             rand_period = RANDOM(PERIODS);
             if (!strcmp(timeTable.courseType[i], "CSCL")) rand_room = RANDOM(LABS);
             else rand_room = RANDOM(ROOMS);
             rand_day = RANDOM(DAYS);
-            if (IsTaken[ROOMS][PERIODS][DAYS] || IsTaken[ROOMS][PERIODS+1][DAYS]) goto again;
+            if (IsTaken[rand_room][rand_period][rand_day] || IsTaken[rand_room][rand_period+1][rand_day]) goto again;
             else
             {
                 memset(content, '\0', SLOTLENGTH);
