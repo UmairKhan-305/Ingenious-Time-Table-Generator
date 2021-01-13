@@ -112,14 +112,22 @@ void update(T timeTable){
         infile = fopen(inname, "w");
 
         for(int i = 0; i < COURSE; i++){
-            fprintf(infile, "%s\t%s\t", timeTable.courseCode[i], timeTable.subjectName[i]);
+            fprintf(infile, "%s %s\t%s\t", timeTable.courseType[i], timeTable.courseCode[i], timeTable.subjectName[i]);
 
             for(int j = 0; j < SECNO; j++){
-                fprintf(infile, "%s\t", timeTable.teachers[i][j]);
+                if(j == SECNO-1){
+                    fprintf(infile, "%s", timeTable.teachers[i][j]);
+                }
+
+                else{
+                    fprintf(infile, "%s\t", timeTable.teachers[i][j]);
+                }
+                
             }
 
-            fprintf(infile, "\t\n");
+            fprintf(infile, "\n");
         }
+        fclose(infile);
         break;
     
     default:

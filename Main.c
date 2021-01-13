@@ -8,6 +8,7 @@ void update (T);
 void generator (G *, T, C, int);
 void displayTable (G);
 void garbageCollector (G *);
+void cleanIsTaken ();
 
 int main () {
     T timeTable;
@@ -17,6 +18,7 @@ int main () {
     int choice;
     
     create(&timeTable, &classes);
+    system("cls");
     printf("\nFile processing successful...\n");
 
     do
@@ -31,33 +33,35 @@ int main () {
 
         switch (choice)
         {
-        case 1:
-        case 2:
-            read(timeTable, classes, choice);
-            break;
+            case 0:
+                printf("\nExiting program gracefully...\n");
+                break;
+            case 1:
+            case 2:
+                create(&timeTable, &classes);
+                read(timeTable, classes, choice);
+                break;
 
-        case 3:
-            update(timeTable);
-            break;
+            case 3:
+                update(timeTable);
+                create(&timeTable, &classes);
+                break;
 
-        case 4:
-            srand(time(0));
-            garbageCollector(&generatedTable);
-            generator(&generatedTable, timeTable, classes, 0);
-            displayTable(generatedTable);
-            printf("\nTime Table generated...");
-            printf("\nView timetable (Y/N)? ");
-            cont = getche();
-            if (cont == 'y' || cont == 'Y') system("notepad '.\\Time Table.txt'");
-            break;
-
-        case 0:
-            printf("\nExiting program gracefully...\n");
-            break;
-        
-        default:
-            printf("\nInvalid choice please verify again...\n");
-            break;
+            case 4:
+                srand(time(0));
+                garbageCollector(&generatedTable);
+                generator(&generatedTable, timeTable, classes, 0);
+                displayTable(generatedTable);
+                printf("\nTime Table generated...");
+                printf("\nView timetable (Y/N)? ");
+                cont = getche();
+                if (cont == 'y' || cont == 'Y') system("notepad '.\\Time Table.txt'");
+                cleanIsTaken();
+                break;
+            
+            default:
+                printf("\nInvalid choice please verify again...\n");
+                break;
         }
     } while (choice != 0);
 }

@@ -22,6 +22,16 @@ void garbageCollector(G * table) {
     }
 }
 
+void cleanIsTaken() {
+    for (int i = 0; i < ROOMS; i++) {
+        for (int j = 0; j < PERIODS; j++) {
+            for (int k = 0; k < DAYS; k++) {
+                IsTaken[i][j][k] = 0;
+            }
+        }
+    }
+}
+
 void generator(G *generatedTable, T timeTable, C classRooms, int sec) {
     if (sec == SECNO) {
         return;
